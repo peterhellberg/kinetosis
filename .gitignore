@@ -1,0 +1,5 @@
+.DS_Store
+ext/*.bundle
+ext/*.o
+ext/Makefile
+*.gem
