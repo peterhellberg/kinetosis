@@ -5,7 +5,7 @@ present in most recent Apple laptops.
 
 Kinetosis is a small Ruby extension written in C.
 
-(Based on the old [sudden_motion_sensor](https://github.com/xunker/sudden_motion_sensor) gem)
+(Based on the old {sudden_motion_sensor}[https://github.com/xunker/sudden_motion_sensor] gem)
 
 == Prerequisites
 
