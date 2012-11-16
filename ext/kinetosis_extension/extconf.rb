@@ -4,7 +4,7 @@ require 'mkmf'
 $LDFLAGS << ' -x objective-c -framework IOKit'
 
 # Give it a name
-extension_name = 'kinetosis'
+extension_name = 'kinetosis_extension'
 
 # The destination
 dir_config(extension_name)

@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/../ext/kinetosis'
+require 'kinetosis_extension'
 
 module Kinetosis
   VERSION = '0.0.1'
