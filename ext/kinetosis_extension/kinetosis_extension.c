@@ -12,9 +12,9 @@ void Init_kinetosis();
 static VALUE method_xyz();
 
 // The initialization method for this module
-void Init_kinetosis() {
+void Init_kinetosis_extension() {
   Kinetosis = rb_define_module("Kinetosis");
-  rb_define_method(Kinetosis, "xyz", method_xyz, 0);	
+  rb_define_method(Kinetosis, "xyz", method_xyz, 0);
 }
 
 static VALUE method_xyz(){
