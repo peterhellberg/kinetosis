@@ -1,8 +1,7 @@
-require File.dirname(__FILE__) + '/../ext/kinetosis'
+require 'kinetosis/version'
+require 'kinetosis/kinetosis'
 
 module Kinetosis
-  VERSION = '0.0.1'
-
   def x
     xyz[0]
   end
@@ -13,5 +12,9 @@ module Kinetosis
 
   def z
     xyz[2]
+  end
+
+  def has_sudden_motion_sensor?
+    xyz != "Error"
   end
 end
