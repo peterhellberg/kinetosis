@@ -1,17 +1,15 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-require 'kinetosis'
+require 'kinetosis/version'
 
 Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.8.7'
-  s.extensions    << "ext/extconf.rb"
-  s.require_paths << 'ext'
+  s.extensions  = ["ext/extconf.rb"]
 
   s.name        = "kinetosis"
   s.platform    = Gem::Platform::CURRENT
   s.version     = Kinetosis::VERSION
-  s.date        = Time.now.strftime('%Y-%m-%d')
   s.summary     = "XYZ orientation from the Apple Sudden Motion Sensor"
   s.description = "Read the XYZ orientation from the Sudden Motion Sensor in most Macbooks."
   s.email       = "peter@c7.se"
