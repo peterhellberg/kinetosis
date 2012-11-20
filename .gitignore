@@ -2,4 +2,5 @@
 ext/*.bundle
 ext/*.o
 ext/Makefile
+lib/kinetosis/*.bundle
 *.gem
